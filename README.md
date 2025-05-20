@@ -1,0 +1,1 @@
+# wazo-webrtc-plugin
