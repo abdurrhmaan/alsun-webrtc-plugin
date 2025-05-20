@@ -1,0 +1,3 @@
+location ^ ~ /alsun-webrtc-demo {
+alias /var/www/html / alsun - webrtc - demo;
+}
