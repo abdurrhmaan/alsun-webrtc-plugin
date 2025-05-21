@@ -1,21 +1,25 @@
 #!/bin/sh
-# Copyright 2021-2025 Alsun AI Team (based on work by The Wazo Authors)
+# Copyright 2024 The Alsun AI Authors  (see the AUTHORS file)
 # SPDX-License-Identifier: MIT
 
 case "$1" in
     build)
         ;;
+
     package)
-        mkdir -p ${pkgdir}/var/www/html/alsun-webrtc-demo/
-        cp -a index.html src img favicon.ico styles.css ${pkgdir}/var/www/html/alsun-webrtc-demo/
+        mkdir -p ${pkgdir}/var/www/html/alsun-webrtc-plugin/
+        cp -a index.html src img favicon.ico styles.css ${pkgdir}/var/www/html/alsun-webrtc-plugin/
         cp -R etc ${pkgdir}/
         ;;
+
     install)
         systemctl restart nginx
         ;;
+
     uninstall)
         systemctl restart nginx
         ;;
+
     *)
         echo "$0 called with unknown argument '$1'" >&2
         exit 1

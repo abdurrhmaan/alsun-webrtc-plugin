@@ -3,7 +3,7 @@ const { Wazo } = window['@wazo/sdk'];
 let ready = false;
 let session = null;
 
-Wazo.Auth.init('walsun-webrtc-demo');
+Wazo.Auth.init('alsun-webrtc-plugin');
 
 const displayAuthError = error => {
     $('.auth-error').html('');

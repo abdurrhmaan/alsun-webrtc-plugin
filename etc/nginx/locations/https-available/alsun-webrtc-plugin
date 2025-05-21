@@ -1,0 +1,3 @@
+location ^~ /alsun-webrtc-plugin {
+    alias /var/www/html/alsun-webrtc-plugin;
+}

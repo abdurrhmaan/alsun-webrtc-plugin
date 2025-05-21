@@ -1,9 +1,9 @@
-name: alsun-webrtc-demo
-namespace: alsunai
+name: alsun-webrtc-plugin
+namespace: alsun
 version: 0.0.1
 author: Alsun AI Team
-display_name: Alsun AI WebRTC Client
+display_name: Alsun AI WebRTC client
 tags:
   - demo
-  - community
+  - alsun
 homepage: https://github.com/abdurrhmaan/alsun-webrtc-plugin
