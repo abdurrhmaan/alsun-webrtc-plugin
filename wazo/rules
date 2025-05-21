@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright 2024 The Alsun AI Authors  (see the AUTHORS file)
+# Copyright 2024 The Alsun AI Authors
 # SPDX-License-Identifier: MIT
 
 case "$1" in
