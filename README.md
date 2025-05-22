@@ -1,1 +1,1 @@
-# alsun-webrtc-plugin
+# wazo-webrtc-plugin

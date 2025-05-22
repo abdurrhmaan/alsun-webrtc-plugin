@@ -215,7 +215,7 @@
   justify-content: center;
 }
 
-.alsun-logo {
+.wazo-logo {
   display: block;
   margin: auto;
   width: 70%;
@@ -377,10 +377,6 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 5px 15px 5px 15px;
-}
-
-.bg-alsun {
-  background-color: #034f49 !important;
 }
 
 #logout {
